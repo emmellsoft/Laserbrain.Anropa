@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laserbrain.Anropa.Demo.Server", "Laserbrain.Anropa.Demo.Server\Laserbrain.Anropa.Demo.Server.csproj", "{23AF264D-F10B-4E39-931F-6D1F5A3085CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laserbrain.Anropa.Common", "..\Laserbrain.Anropa\Laserbrain.Anropa.Common\Laserbrain.Anropa.Common.csproj", "{8EE42686-3076-4940-B6BC-494DA941B7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laserbrain.Anropa.Server", "..\Laserbrain.Anropa\Laserbrain.Anropa.Server\Laserbrain.Anropa.Server.csproj", "{F6C63989-1AF9-42F0-B71E-8177AB06F6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laserbrain.Anropa.Server.Nancy", "..\Laserbrain.Anropa\Laserbrain.Anropa.Server.Nancy\Laserbrain.Anropa.Server.Nancy.csproj", "{1E0A02C3-F9D9-48D3-9748-B2EF667FE1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laserbrain.Anropa.Demo.Common", "Laserbrain.Anropa.Demo.Common\Laserbrain.Anropa.Demo.Common.csproj", "{880ED0E2-A56D-4068-9390-EF5DA2132DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D52909B8-2B66-4537-9613-F053E2482ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23AF264D-F10B-4E39-931F-6D1F5A3085CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AF264D-F10B-4E39-931F-6D1F5A3085CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AF264D-F10B-4E39-931F-6D1F5A3085CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AF264D-F10B-4E39-931F-6D1F5A3085CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE42686-3076-4940-B6BC-494DA941B7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE42686-3076-4940-B6BC-494DA941B7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE42686-3076-4940-B6BC-494DA941B7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE42686-3076-4940-B6BC-494DA941B7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C63989-1AF9-42F0-B71E-8177AB06F6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C63989-1AF9-42F0-B71E-8177AB06F6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C63989-1AF9-42F0-B71E-8177AB06F6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C63989-1AF9-42F0-B71E-8177AB06F6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0A02C3-F9D9-48D3-9748-B2EF667FE1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0A02C3-F9D9-48D3-9748-B2EF667FE1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0A02C3-F9D9-48D3-9748-B2EF667FE1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0A02C3-F9D9-48D3-9748-B2EF667FE1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880ED0E2-A56D-4068-9390-EF5DA2132DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880ED0E2-A56D-4068-9390-EF5DA2132DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880ED0E2-A56D-4068-9390-EF5DA2132DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880ED0E2-A56D-4068-9390-EF5DA2132DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EE42686-3076-4940-B6BC-494DA941B7EC} = {D52909B8-2B66-4537-9613-F053E2482ED5}
+		{F6C63989-1AF9-42F0-B71E-8177AB06F6BE} = {D52909B8-2B66-4537-9613-F053E2482ED5}
+		{1E0A02C3-F9D9-48D3-9748-B2EF667FE1C3} = {D52909B8-2B66-4537-9613-F053E2482ED5}
+	EndGlobalSection
+EndGlobal
