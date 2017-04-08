@@ -1,4 +1,4 @@
-# Laserbrain.Anropa
+# Laserbrain.ANROPA
 Use this library to build a simple REST based "remote procedure call" client-server application.
 
 Your application will consist of three parts (preferably three projects, as in the provided demo):
